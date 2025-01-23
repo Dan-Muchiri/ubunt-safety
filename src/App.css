@@ -1,84 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&display=swap');
 
-:root {
-  /* Text Colors */
-  --text--light: #ffffff;
-  --text--dark: #263238;
-  --text--secondary: #757575;
-
-  /* Primary Colors */
-  --base--white: #ffffff;
-  --base--orange: #FF6F00;
-  --base--orange-light: #FF8C00;
-
-  /* Neutral Colors */
-  --base--gray-light: #f5f5f5;
-  --base--gray-dark: #B0BEC5;
-  --base--dark-blue: #263238;
-  --base--black: #070707;
-
-  /* Secondary Colors */
-  --base--lime-green: #76FF03;
-
-  /* Fonts */
-  --font--primary: 'Inter', sans-serif;
-  --font--secondary: 'Manrope', sans-serif;
-
-  /* Component-Specific */
-  --button--hover-bg: var(--base--orange-light);
-  --card--shadow: rgba(0, 0, 0, 0.1);
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  color: var(--text--dark);
-  background-color: var(--base--white);
-  min-height: 100%;
-  margin: 0;
-  font-family: var(--font--primary);
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Images */
-img {
-  vertical-align: middle;
-  max-width: 100%;
-  display: inline-block;
-}
-
-/* Buttons */
-button {
-  background-color: var(--base--orange);
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--base--dark-blue);
   color: var(--text--light);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: var(--button--hover-bg);
+.heroContent {
+  max-width: 500px;
 }
 
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text--dark);
-  margin: 0 0 10px;
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
   font-family: var(--font--secondary);
 }
 
-/* Cards */
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-family: var(--font--primary);
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.ctaBtn {
+  padding: 10px 20px;
+  background-color: var(--base--orange);
+  color: var(--text--light);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: var(--font--primary);
+  transition: background-color 0.3s ease;
+}
+
+.ctaBtn:hover {
+  background-color: var(--button--hover-bg);
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productOverview {
+  padding: 50px;
+  background-color: var(--base--gray-light);
+}
+
+.productOverview h2 {
+  font-size: 2rem;
+  font-family: var(--font--secondary);
+  margin-bottom: 30px;
+}
+
+.productCategories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.productCategory {
+  flex: 1;
+  min-width: 250px;
+}
+
+.productCategory h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: var(--font--secondary);
+}
+
+.productCategory ul {
+  list-style: none;
+  padding: 0;
+}
+
+.productCategory li {
+  margin-bottom: 10px;
+}
+
+.productCategory a {
+  text-decoration: none;
+  color: var(--text--dark);
+  font-family: var(--font--primary);
+}
+
+.productCategory a:hover {
+  color: var(--base--orange);
+}
+
+.testimonials {
+  padding: 50px;
+  background-color: var(--base--white);
+  text-align: center;
+}
+
+.testimonialSlider {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.testimonial {
+  max-width: 400px;
+  font-style: italic;
+  font-family: var(--font--primary);
+  background-color: var(--base--gray-light);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px var(--card--shadow);
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--base--orange);
+}
+
 .card {
   background-color: var(--base--white);
   border: 1px solid var(--base--gray-dark);

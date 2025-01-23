@@ -1,0 +1,232 @@
+/* General Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+.heroContent {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.ctaButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.ctaBtn {
+    padding: 10px 20px;
+    background-color: #f56c56;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ctaBtn:hover {
+    background-color: #f44336;
+}
+
+.heroImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productOverview {
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.productCategories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.productCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--base--white);
+    border: 1px solid var(--base--gray-dark);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.productCategory:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.categoryImage {
+    width: 65%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.productCategoryContent {
+    width: 60%;
+}
+
+.productCategory h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.productCategory ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.productCategory ul li {
+    color: #333;
+    font-size: 1.125rem;
+    font-weight: 500;
+    position: relative;
+    padding-left: 20px;
+}
+
+.productCategory ul li::before {
+    content: "•";
+    color: var(--base--orange);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonialSlider {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonial {
+    max-width: 400px;
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f56c56;
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroImage img {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .ctaButtons {
+        flex-direction: column;
+        gap: 10px;
+        width: 60%;
+    }
+
+    .productCategories {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .testimonialSlider {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Adjust spacing between testimonials */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .ctaBtn {
+        padding: 8px 15px;
+        font-size: 0.875rem;
+    }
+
+    .productCategories {
+        grid-template-columns: 1fr;
+    }
+
+    .productCategory {
+        padding: 15px;
+    }
+
+    .productCategory h3 {
+        font-size: 1.25rem;
+    }
+
+    .productCategory ul li {
+        font-size: 1rem;
+    }
+
+    .testimonial {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .testimonial cite {
+        font-size: 0.875rem;
+    }
+
+    .testimonialSlider {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; /* Adjust spacing between testimonials */
+    }
+}
+
