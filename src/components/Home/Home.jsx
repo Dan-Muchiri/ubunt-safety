@@ -16,7 +16,7 @@ function Home() {
           </div>
         </div>
         <div className={styles.heroImage}>
-          <img src="/public/Ubuntu safety logo.png" alt="Safety Solutions" />
+          <img src="/Ubuntu safety logo.png" alt="Safety Solutions" />
         </div>
       </section>
 
@@ -26,7 +26,7 @@ function Home() {
         <div className={styles.productCategories}>
           {/* Footwear Category */}
           <Link to="/products/footwear" className={styles.productCategory}>
-            <img src="/public/footwear.png" alt="Footwear" className={styles.categoryImage} />
+            <img src="/footwear.png" alt="Footwear" className={styles.categoryImage} />
             <h3>Footwear</h3>
             <ul>
               <li>Safety Working Shoes</li>
@@ -38,7 +38,7 @@ function Home() {
 
           {/* Gloves Category */}
           <Link to="/products/gloves" className={styles.productCategory}>
-            <img src="/public/gloves.png" alt="Gloves" className={styles.categoryImage} />
+            <img src="/gloves.png" alt="Gloves" className={styles.categoryImage} />
             <h3>Gloves</h3>
             <ul>
               <li>Puncture Resistant Gloves</li>
@@ -51,7 +51,7 @@ function Home() {
 
           {/* Protective Gear Category */}
           <Link to="/products/protective-gear" className={styles.productCategory}>
-            <img src="/public/gear.png" alt="Protective Gear" className={styles.categoryImage} />
+            <img src="/gear.png" alt="Protective Gear" className={styles.categoryImage} />
             <h3>Protective Gear</h3>
             <ul>
               <li>Safety Jackets</li>
@@ -63,7 +63,7 @@ function Home() {
 
           {/* Head and Eye Protection Category */}
           <Link to="/products/head-eye-protection" className={styles.productCategory}>
-            <img src="/public/head&eye.png" alt="Head and Eye Protection" className={styles.categoryImage} />
+            <img src="/head&eye.png" alt="Head and Eye Protection" className={styles.categoryImage} />
             <h3>Head and Eye Protection</h3>
             <ul>
               <li>Safety Helmets and Caps</li>
@@ -76,7 +76,7 @@ function Home() {
 
           {/* Other Safety Gear Category */}
           <Link to="/products/other-safety-gear" className={styles.productCategory}>
-            <img src="/public/other.png" alt="Other Safety Gear" className={styles.categoryImage} />
+            <img src="/other.png" alt="Other Safety Gear" className={styles.categoryImage} />
             <h3>Other Safety Gear</h3>
             <ul>
               <li>Ear Protection</li>

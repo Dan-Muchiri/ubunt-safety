@@ -1,0 +1,77 @@
+/* Footer.module.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: var(--font--primary); /* Uses the primary font */
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-family: var(--font--primary); /* Heading font (if defined) */
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    margin-bottom: 10px;
+    font-family: var(--font--primary); /* Regular font */
+  }
+  
+  .column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .column ul li a:hover {
+    color: #f56c56;
+  }
+  
+  .column p {
+    margin: 5px 0;
+    font-family: var(--font--secondary); /* Consistent font for paragraphs */
+  }
+  
+  .whatsappLink {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: var(--font--secondary); /* Consistent font */
+    transition: background-color 0.3s;
+  }
+  
+  .whatsappLink:hover {
+    background-color: #1EBF57;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 0.875rem;
+    font-family: var(--font--secondary); /* Consistent font */
+  }
+  
