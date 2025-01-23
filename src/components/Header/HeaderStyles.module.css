@@ -93,15 +93,8 @@
   color: var(--base--orange);
 }
 
-.separator {
-  height: 1px;
-  width: 100%;
-  background-color: var(--base--orange-light);
-  margin: 8px 0;
-  display: none;
-}
 
-.separator.showMenu {
+.showMenu {
   display: block;
 }
 

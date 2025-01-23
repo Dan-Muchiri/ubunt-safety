@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* About Us Page Container */
+.aboutUsPage {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Hero Section */
+.heroSection {
+    text-align: center;
+    color: #fff;
+    padding: 40px 15px;
+    background-color: #004d40;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.heroSection h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.heroSection p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.ctaButton {
+    padding: 6px 25px;
+    background-color: #f56c56;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #c64940;
+}
+
+/* About Us Section */
+.aboutSection {
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.aboutSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.aboutSection p {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* Vision and Mission Section */
+.visionMissionSection {
+    padding: 30px 15px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.visionMissionSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.visionMissionContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.vision, .mission {
+    flex: 1;
+    min-width: 220px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vision h3, .mission h3 {
+    color: #004d40;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Why Choose Us Section */
+.whyChooseUsSection {
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.whyChooseUsSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.benefitsList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.benefitsList li {
+    font-size: 0.95rem;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+/* Services Section */
+.servicesSection {
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.servicesSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.serviceCard {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.serviceCard h3 {
+    color: #004d40;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.serviceCard p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+.ctaSection {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.ctaSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.ctaSection p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.ctaSection .ctaButton {
+    background-color: #f56c56;
+    padding: 8px 25px;
+}

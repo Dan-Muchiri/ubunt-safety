@@ -28,7 +28,6 @@ function Header() {
                     </nav>
                   </div>
 
-                  <div className={`${styles.separator} ${isMenuOpen ? styles.showMenu : ''}`}></div>
 
                   <div className={styles.menuIcon} onClick={toggleMenu}>
                       {isMenuOpen ? <div className={styles.menu}>Close<FaTimes size={18} /></div> : <div className={styles.menu}>Menu<FaBars size={18} /></div>}
