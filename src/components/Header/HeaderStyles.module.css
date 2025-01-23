@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&display=swap');
+
+:root {
+  /* Text Colors */
+  --text--light: #ffffff;
+  --text--dark: #263238;
+
+  /* Primary Colors */
+  --base--orange: #FF6F00;
+  --base--orange-light: #FF8C00;
+
+  /* Fonts */
+  --font--primary: 'Inter', sans-serif;
+  --font--secondary: 'Manrope', sans-serif;
+}
+
+.container {
+  background-color: var(--text--light); /* White background */
+  color: var(--text--dark);
+  padding: 16px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sub {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logoName {
+  font-family: var(--font--secondary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.navBlock {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  background: var(--text--light); /* Matches the header background */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dropdown shadow */
+  z-index: 10;
+}
+
+.navBlock.showMenu {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav a {
+  font-family: var(--font--secondary);
+  font-weight: 400;
+  color: var(--text--dark);
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--base--orange);
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: var(--base--orange-light);
+  margin: 8px 0;
+  display: none;
+}
+
+.separator.showMenu {
+  display: block;
+}
+
+.menuIcon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text--dark);
+}
+
+.menu {
+  font-family: var(--font--primary);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.menu:hover {
+  color: var(--base--orange-light);
+}
+
+/* Adjust the dropdown menu for small screens */
+@media (max-width: 768px) {
+  .navBlock {
+    top: 90px; /* Slightly lower to avoid overlapping with the button */
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  .navBlock {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .nav {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+}
