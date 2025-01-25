@@ -64,13 +64,14 @@ function Home() {
           {/* Head and Eye Protection Category */}
           <Link to="/products/head-eye-protection" className={styles.productCategory}>
             <img src="/head&eye.png" alt="Head and Eye Protection" className={styles.categoryImage} />
-            <h3>Head and Eye Protection</h3>
+            <h3>Head, Eye and Ear Protection</h3>
             <ul>
               <li>Safety Helmets and Caps</li>
               <li>FFP1 Respirators</li>
               <li>Welding Masks</li>
               <li>Faceshields</li>
               <li>Eye Protection</li>
+              <li>Ear Protection</li>
             </ul>
           </Link>
 
@@ -79,7 +80,6 @@ function Home() {
             <img src="/other.png" alt="Other Safety Gear" className={styles.categoryImage} />
             <h3>Other Safety Gear</h3>
             <ul>
-              <li>Ear Protection</li>
               <li>Road Safety Gear</li>
               <li>First Aid Kits</li>
               <li>Ladders</li>
