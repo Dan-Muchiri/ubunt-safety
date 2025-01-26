@@ -60,7 +60,7 @@ const ProductsPage = ({ products, categories }) => {
           </button>
           {categories.map((category) => (
             <button
-              key={category}
+              key={category} // Key for each category button
               onClick={() => handleCategoryChange(category)}
               className={selectedCategory === category ? styles.active : ""}
             >
@@ -72,22 +72,25 @@ const ProductsPage = ({ products, categories }) => {
 
       {/* Products by Category */}
       {Object.keys(productsByCategory).map((category) => (
-        <div key={category} className={styles.categorySection}>
-          <h2 className={styles.categoryTitle}>{category}</h2>
-          <div
-            className={`${styles.productsGrid} ${
-              productsByCategory[category].length > 6 ? styles.scrollable : ""
-            }`}
-          >
-            {productsByCategory[category].map((product) => (
-              <div key={product.id} className={styles.productCard}>
-                <img src={product.image} alt={product.name} />
-                <h3>{product.name}</h3>
-                <Link to={`/product/${product.id}`}>
-                  <button className={styles.addToCart}>View Details</button>
-                </Link>
-              </div>
-            ))}
+        <div key={category} className={styles.categoryHold}>
+          {/* Key moved to this outer div */}
+          <div className={styles.categorySection}>
+            <h2 className={styles.categoryTitle}>{category}</h2>
+            <div
+              className={`${styles.productsGrid} ${
+                productsByCategory[category].length > 6 ? styles.scrollable : ""
+              }`}
+            >
+              {productsByCategory[category].map((product) => (
+                <div key={product.id} className={styles.productCard}>
+                  <img src={product.image} alt={product.name} />
+                  <h3>{product.name}</h3>
+                  <Link to={`/product/${product.id}`}>
+                    <button className={styles.addToCart}>View Details</button>
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       ))}

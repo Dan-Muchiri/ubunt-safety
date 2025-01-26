@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "COBRA D-506",
     category: "Footwear",
-    image: "/src/assets/cobra.png",
+    image: "/cobra.png",
     description: [
       "UPPER: Full grain water resistant leather upper",
       "LINING: Breathable 3D Air Mesh",
@@ -20,7 +20,7 @@ const products = [
     id: 2,
     name: "CHUI D-500",
     category: "Footwear",
-    image: "/src/assets/chui.png",  // Update with the correct image path
+    image: "/chui.png",  // Update with the correct image path
     description: [
       "UPPER: Water resistant leather 1.8MM",
       "LINING: Breathable 3D air mesh",
@@ -35,7 +35,7 @@ const products = [
     id: 3,
     name: "MAMBA D-501",
     category: "Footwear",
-    image: "/src/assets/Mamba.png",  // Update with the correct image path
+    image: "/Mamba.png",  // Update with the correct image path
     description: [
       "UPPER: Water resistant leather 1.8MM",
       "LINING: Breathable 3D air mesh",
@@ -50,7 +50,7 @@ const products = [
     id: 4,
     name: "SIMBA D-507",
     category: "Footwear",
-    image: "/src/assets/simba.png",  // Update with the correct image path
+    image: "/simba.png",  // Update with the correct image path
     description: [
       "UPPER: Water resistant leather 1.8MM",
       "LINING: Breathable 3D air mesh",
@@ -65,7 +65,7 @@ const products = [
     id: 5,
     name: "SINDI D-508",
     category: "Footwear",
-    image: "/src/assets/sindi.png",  // Update with the correct image path
+    image: "/sindi.png",  // Update with the correct image path
     description: [
       "UPPER: Water resistant leather 1.8MM",
       "LINING: Breathable 3D air mesh",
@@ -80,7 +80,7 @@ const products = [
     id: 6,
     name: "H1101 Gloves",
     category: "Gloves",
-    image: "/src/assets/h1101.png",  // Add the image path for the gloves
+    image: "/h1101.png",  // Add the image path for the gloves
     description: [
       "10 gauge",
       "Cut level 5",
@@ -93,7 +93,7 @@ const products = [
     id: 7,
     name: "H3101 Gloves",
     category: "Gloves",
-    image: "/src/assets/h3101.png",  // Add the image path for the gloves
+    image: "/h3101.png",  // Add the image path for the gloves
     description: [
       "13G",
       "Cut level 5",
@@ -105,7 +105,7 @@ const products = [
     id: 8,
     name: "N1501 Gloves",
     category: "Gloves",
-    image: "/src/assets/n1501.png",  // Add the image path for the gloves
+    image: "/n1501.png",  // Add the image path for the gloves
     description: [
       "13G",
       "White poly-light",
@@ -117,7 +117,7 @@ const products = [
     id: 9,
     name: "N1511 Gloves",
     category: "Gloves",
-    image: "/src/assets/n1511.png",  // Add the image path for the gloves
+    image: "/n1511.png",  // Add the image path for the gloves
     description: [
       "13G U3",
       "Polyester shell",
@@ -129,7 +129,7 @@ const products = [
     id: 10,
     name: "N2304 Cotton Gloves",
     category: "Gloves",
-    image: "/src/assets/n2304.png",  // Add the image path for the gloves
+    image: "/n2304.png",  // Add the image path for the gloves
     description: [
       "Jersey glove",
       "Nitrile half coated",
@@ -140,7 +140,7 @@ const products = [
     id: 11,
     name: "N2501 Spandex Gloves",
     category: "Gloves",
-    image: "/src/assets/n2501.png",  // Add the image path for the gloves
+    image: "/n2501.png",  // Add the image path for the gloves
     description: [
       "Spandex shell",
       "Microfoam nitrile coated",
@@ -151,7 +151,7 @@ const products = [
     id: 12,
     name: "N2521 Gloves",
     category: "Gloves",
-    image: "/src/assets/n2521.png",  // Add the image path for the gloves
+    image: "/n2521.png",  // Add the image path for the gloves
     description: [
       "15G white nylon",
       "Spandex shell",
@@ -162,7 +162,7 @@ const products = [
     id: 13,
     name: "L1101 10G High Grade Yarn",
     category: "Gloves",
-    image: "/src/assets/l1101.png",  // Add the image path for the L1101 gloves
+    image: "/l1101.png",  // Add the image path for the L1101 gloves
     description: [
       "10G high grade yarn",
       "Latex coating",
@@ -173,7 +173,7 @@ const products = [
     id: 14,
     name: "L1202 10G T/C Liner",
     category: "Gloves",
-    image: "/src/assets/l1202.png",  // Add the image path for the L1202 gloves
+    image: "/l1202.png",  // Add the image path for the L1202 gloves
     description: [
       "10G T/C liner",
       "Best quality natural latex coated",
@@ -184,7 +184,7 @@ const products = [
     id: 15,
     name: "L1803 Interlock Pink Latex",
     category: "Gloves",
-    image: "/src/assets/l1803.png",  // Add the image path for the L1803 gloves
+    image: "/l1803.png",  // Add the image path for the L1803 gloves
     description: [
       "Interlock pink latex",
       "Rough wrist",
@@ -195,7 +195,7 @@ const products = [
     id: 16,
     name: "Sy7102 550gms T/C Knitted Gloves",
     category: "Gloves",
-    image: "/src/assets/sy7102.png",  // Add the image path for the Sy7102 gloves
+    image: "/sy7102.png",  // Add the image path for the Sy7102 gloves
     description: [
       "550gms weight",
       "10G T/C natural color",
@@ -206,7 +206,7 @@ const products = [
     id: 17,
     name: "Sy7102 550gms T/C Knitted Gloves",
     category: "Gloves",
-    image: "/src/assets/sy71022.png",  // Add the image path for the Sy7102 gloves
+    image: "/sy71022.png",  // Add the image path for the Sy7102 gloves
     description: [
       "550gms weight",
       "10G T/C natural color",
@@ -217,7 +217,7 @@ const products = [
     id: 18,
     name: "DDAG2550 10G T/C White Bleached Knitted Gloves",
     category: "Gloves",
-    image: "/src/assets/ddag2550.png",  // Add the image path for the DDAG2550 gloves
+    image: "/ddag2550.png",  // Add the image path for the DDAG2550 gloves
     description: [
       "10G T/C white bleached knitted gloves",
       "Blue PVC dots coated on both sides"
@@ -227,7 +227,7 @@ const products = [
     id: 19,
     name: "D5000 Nitrile 3.5g Powder Free",
     category: "Gloves",
-    image: "/src/assets/d5000.png",  // Add the image path for the D5000 gloves
+    image: "/d5000.png",  // Add the image path for the D5000 gloves
     description: [
       "3.5g nitrile gloves",
       "Powder free for hygienic use",
@@ -238,7 +238,7 @@ const products = [
     id: 20,
     name: "Latex Powdered Gloves AQL 1.5",
     category: "Gloves",
-    image: "/src/assets/latex.png",  // Add the image path for the latex powdered gloves
+    image: "/latex.png",  // Add the image path for the latex powdered gloves
     description: [
       "Powdered latex gloves",
       "AQL 1.5 for quality assurance",
@@ -249,7 +249,7 @@ const products = [
     id: 21,
     name: "COMBAT 1256",
     category: "Footwear",
-    image: "/src/assets/combat.png", // Add the image path for the Combat 1256 footwear
+    image: "/combat.png", // Add the image path for the Combat 1256 footwear
     description: [
       "Leather 1.8MM",
       "Cleated outsole, heat resistant",
@@ -264,7 +264,7 @@ const products = [
     id: 22,
     name: "PARADE 1298",
     category: "Footwear",
-    image: "/src/assets/parade.png", // Add the image path for the Parade 1298 footwear
+    image: "/parade.png", // Add the image path for the Parade 1298 footwear
     description: [
       "Leather 1.8MM",
       "Cleated outsole, heat resistant",
@@ -279,7 +279,7 @@ const products = [
     id: 23,
     name: "LADIES OFFICER 1490",
     category: "Footwear",
-    image: "/src/assets/ladies.png", // Add the image path for the Ladies Officer 1490 footwear
+    image: "/ladies.png", // Add the image path for the Ladies Officer 1490 footwear
     description: [
       "Leather 1.5MM",
       "TPR outsole",
@@ -292,7 +292,7 @@ const products = [
     id: 24,
     name: "OXFORD 1263",
     category: "Footwear",
-    image: "/src/assets/oxford.png", // Add the image path for the Oxford 1263 footwear
+    image: "/oxford.png", // Add the image path for the Oxford 1263 footwear
     description: [
       "Leather 1.5MM",
       "TPR outsole",
@@ -305,7 +305,7 @@ const products = [
     id: 25,
     name: "NYATI D-512",
     category: "Footwear",
-    image: "/src/assets/nyati.png", // Add the image path for the Nyati D-512 footwear
+    image: "/nyati.png", // Add the image path for the Nyati D-512 footwear
     description: [
       "Water Resistant Leather 1.8MM",
       "Breathable 3D Air Mesh lining",
@@ -319,7 +319,7 @@ const products = [
     id: 26,
     name: "DERBY 1262",
     category: "Footwear",
-    image: "/src/assets/derby.png", // Add the image path for the Derby 1262 footwear
+    image: "/derby.png", // Add the image path for the Derby 1262 footwear
     description: [
       "Leather 1.5MM",
       "TPR outsole",
@@ -332,7 +332,7 @@ const products = [
     id: 27,
     name: "JOGGER EXECUTIVE SHOES",
     category: "Footwear",
-    image: "/src/assets/jogger.png", // Add the image path for the Jogger Executive Shoes
+    image: "/jogger.png", // Add the image path for the Jogger Executive Shoes
     description: [
       "Leather 1.5MM",
       "TPR outsole",
@@ -345,7 +345,7 @@ const products = [
     id: 28,
     name: "COMBAT CAMO 1304",
     category: "Footwear",
-    image: "/src/assets/combatcamo.png", // Add the image path for the Combat Camo 1304
+    image: "/combatcamo.png", // Add the image path for the Combat Camo 1304
     description: [
       "Leather 1.8mm",
       "Cleated Outsole, Heat Resistant",
@@ -360,7 +360,7 @@ const products = [
     id: 29,
     name: "ACE MARA GUMBOOTS 1514",
     category: "Footwear",
-    image: "/src/assets/mara.png", // Add the image path for the Ace Mara Gumboots 1514
+    image: "/mara.png", // Add the image path for the Ace Mara Gumboots 1514
     description: [
       "PVC upper",
       "Polyester Woven lining",
@@ -375,7 +375,7 @@ const products = [
     id: 30,
     name: "ACE TSAVO SAFETY 1287",
     category: "Footwear",
-    image: "/src/assets/tsavo.png", // Add the image path for the Ace Tsavo Safety 1287
+    image: "/tsavo.png", // Add the image path for the Ace Tsavo Safety 1287
     description: [
       "PVC upper",
       "Polyester Woven lining",
@@ -390,7 +390,7 @@ const products = [
     id: 31,
     name: "SAFETY JACKET2",
     category: "Protective Gear",
-    image: "/src/assets/safety_jacket2.png", // Add the image path for the Safety Jacket2
+    image: "/safety_jacket2.png", // Add the image path for the Safety Jacket2
     description: [
       "2-Line Cloth Safety Jacket",
       "100gsm polyester",
@@ -401,7 +401,7 @@ const products = [
     id: 32,
     name: "SJ 4 Line Cloth",
     category: "Protective Gear",
-    image: "/src/assets/sj_4_line_cloth.png", // Add the image path for SJ 4 Line Cloth
+    image: "/sj_4_line_cloth.png", // Add the image path for SJ 4 Line Cloth
     description: [
       "4-Line Cloth Safety Jacket",
       "120gsm polyester",

@@ -1,0 +1,70 @@
+.productDetails {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .imageSection img {
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infoSection {
+    max-width: 600px;
+  }
+  
+  .infoSection h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .description p {
+    margin: 0.5rem 0;
+  }
+  
+  .whatsappButton,
+  .backButton {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 1rem;
+  }
+  
+  .whatsappButton:hover {
+    background-color: #1da851;
+  }
+  
+  .backButton {
+    background-color: #555;
+  }
+  
+  .backButton:hover {
+    background-color: #333;
+  }
+  
+  .notFound {
+    font-size: 1.5rem;
+    color: #ff5722;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  

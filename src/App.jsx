@@ -7,6 +7,7 @@ import Contact from "/src/components/Contact/Contact.jsx"
 import Home from "/src/components/Home/Home.jsx"
 import Footer from "/src/components/Footer/Footer.jsx";
 import { products, categories } from "./components/Products/products";
+import ProductDetail from "./components/ProductDetail/ProductDetail"
 import './App.css'
 
 
@@ -19,6 +20,10 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductsPage products={products} categories={categories} />} />
+          <Route
+            path="/product/:id"
+            element={<ProductDetail products={products} />}
+          />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
