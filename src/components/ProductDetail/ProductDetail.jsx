@@ -32,7 +32,7 @@ const ProductDetailsPage = ({ products }) => {
           className={styles.whatsappButton}
           onClick={() =>
             window.open(
-              `https://wa.me/YOUR_PHONE_NUMBER?text=${encodeURIComponent(
+              `https://wa.me/254723807031?text=${encodeURIComponent(
                 whatsappMessage
               )}`,
               "_blank"
