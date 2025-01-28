@@ -1,21 +1,5 @@
 const products = [
-  {
-    id: 1,
-    name: "COBRA D-506",
-    category: "Footwear",
-    image: "/cobra.png",
-    description: [
-      "UPPER: Full grain water resistant leather upper",
-      "LINING: Breathable 3D Air Mesh",
-      "OUTSOLE: Dual Density P.U.",
-      "HEIGHTS: 8 Inches",
-      "TOE CAP: Steel Toecap for 200J impact",
-      "MID SOLE: Steel Penetration Resistance Inse (Oilfield Drilling)",
-      "SIZE: 39-46",
-      "COLOR: Black",
-      "SPECS: ISO 20345:2011 S3 SRS"
-    ]
-  },
+  ,
   {
     id: 2,
     name: "CHUI D-500",
@@ -390,7 +374,7 @@ const products = [
     id: 31,
     name: "SAFETY JACKET2",
     category: "Protective Gear",
-    image: "/safety_jacket2.png", // Add the image path for the Safety Jacket2
+    image: "/sj2.png", // Add the image path for the Safety Jacket2
     description: [
       "2-Line Cloth Safety Jacket",
       "100gsm polyester",
@@ -401,7 +385,7 @@ const products = [
     id: 32,
     name: "SJ 4 Line Cloth",
     category: "Protective Gear",
-    image: "/sj_4_line_cloth.png", // Add the image path for SJ 4 Line Cloth
+    image: "/sj4.png", // Add the image path for SJ 4 Line Cloth
     description: [
       "4-Line Cloth Safety Jacket",
       "120gsm polyester",
@@ -412,7 +396,7 @@ const products = [
     id: 33,
     name: "VWJK04 Bomber Jacket",
     category: "Protective Gear",
-    image: "/src/assets/vwjk04_bomber_jacket.png", // Add the image path for VWJK04 Bomber Jacket
+    image: "/bomber.png", // Add the image path for VWJK04 Bomber Jacket
     description: [
       "Bomber Jacket",
       "100% Poly 300D Oxford with polyurethane coating",
@@ -423,7 +407,7 @@ const products = [
     id: 34,
     name: "SJ 22 3M",
     category: "Protective Gear",
-    image: "/src/assets/sj22_3m.png", // Add the image path for SJ 22 3M
+    image: "/sj22.png", // Add the image path for SJ 22 3M
     description: [
       "120gsm Polyester knied fabric",
       "3M reflective material"
@@ -433,7 +417,7 @@ const products = [
     id: 35,
     name: "TAHA T/C COVERALL 65/35",
     category: "Protective Gear",
-    image: "/src/assets/taha_tc_coverall.png", // Add the image path for Taha T/C Coverall
+    image: "/taha.png", // Add the image path for Taha T/C Coverall
     description: [
       "65% Polyester, 35% Cotton blend",
       "135gsm Poplin material"
@@ -443,7 +427,7 @@ const products = [
     id: 36,
     name: "RAINSUIT POLY REF",
     category: "Protective Gear",
-    image: "/src/assets/rainsuit_poly_ref.png", // Add the image path for Rainsuit Poly Ref
+    image: "/polyref.png", // Add the image path for Rainsuit Poly Ref
     description: [
       "0.18mm thickness",
       "170g Taeta Polyester/PVC material"
@@ -453,7 +437,7 @@ const products = [
     id: 37,
     name: "RAINSUIT PVC",
     category: "Protective Gear",
-    image: "/src/assets/rainsuit_pvc.png", // Add the image path for Rainsuit PVC
+    image: "/rainpvc.png", // Add the image path for Rainsuit PVC
     description: [
       "0.28mm thickness",
       "PVC/Polyester material"
@@ -463,7 +447,7 @@ const products = [
     id: 38,
     name: "RAINSUIT PVC 0.28mm",
     category: "Protective Gear",
-    image: "/src/assets/rainsuit_pvc_028mm.png", // Add the image path for Rainsuit PVC 0.28mm
+    image: "/rainpvc2.png", // Add the image path for Rainsuit PVC 0.28mm
     description: [
       "0.28mm thickness",
       "PVC/Polyester material"
@@ -473,7 +457,7 @@ const products = [
     id: 39,
     name: "RAINCOAT POLY",
     category: "Protective Gear",
-    image: "/src/assets/raincoat_poly.png", // Add the image path for Raincoat Poly
+    image: "/poly.png", // Add the image path for Raincoat Poly
     description: [
       "0.18mm thickness",
       "170 Taeta Polyester/PVC material"
@@ -483,7 +467,7 @@ const products = [
     id: 40,
     name: "RAINCOAT POLY REF",
     category: "Protective Gear",
-    image: "/src/assets/raincoat_poly_ref.png", // Add the image path for Raincoat Poly Ref
+    image: "/polyref2.png", // Add the image path for Raincoat Poly Ref
     description: [
       "0.18mm thickness",
       "170 Taeta Polyester/PVC material"
@@ -493,7 +477,7 @@ const products = [
     id: 41,
     name: "WORKMAN 100% COTTON 2 PC SUIT",
     category: "Protective Gear",
-    image: "/src/assets/workman_2pc_suit.png", // Add the image path for Workman 2 PC Suit
+    image: "/workman.png", // Add the image path for Workman 2 PC Suit
     description: [
       "100% Cotton",
       "195gsm Twill Material"
@@ -503,7 +487,7 @@ const products = [
     id: 42,
     name: "AP 2 PC SUIT",
     category: "Protective Gear",
-    image: "/src/assets/ap_2pc_suit.png", // Add the image path for AP 2 PC Suit
+    image: "/ap2pc.png", // Add the image path for AP 2 PC Suit
     description: [
       "100% Cotton",
       "195gsm Twill Material"
@@ -513,7 +497,7 @@ const products = [
     id: 43,
     name: "AQ Jacket & Trouser",
     category: "Protective Gear",
-    image: "/src/assets/aq_jacket_trouser.png", // Add the image path for AQ Jacket & Trouser
+    image: "/aqjacket.png", // Add the image path for AQ Jacket & Trouser
     description: [
       "65/35 Polyester/Cotton",
       "240gsm"
@@ -523,7 +507,7 @@ const products = [
     id: 44,
     name: "TAHA PYROVATEX FR COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/taha_pyrovatex_fr_coverall.png", // Add the image path for TAHA PYROVATEX FR COVERALL
+    image: "/tahapyrovatex.png", // Add the image path for TAHA PYROVATEX FR COVERALL
     description: [
       "100% Cotton",
       "270gsm"
@@ -533,7 +517,7 @@ const products = [
     id: 45,
     name: "TAHA PROTEX FR COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/taha_protex_fr_coverall.png", // Add the image path for TAHA PROTEX FR COVERALL
+    image: "/tahaprotex.png", // Add the image path for TAHA PROTEX FR COVERALL
     description: [
       "180gsm",
       "55% Modacrylic, 43% Cotton, 2% Carbon fibers"
@@ -543,7 +527,7 @@ const products = [
     id: 46,
     name: "TAHA T/C COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/taha_tc_coverall.png", // Add the image path for TAHA T/C COVERALL
+    image: "/tahacoverall.png", // Add the image path for TAHA T/C COVERALL
     description: [
       "65% Polyester, 35% Cotton",
       "135gsm Poplin material"
@@ -553,7 +537,7 @@ const products = [
     id: 47,
     name: "TAHA T/C COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/taha_tc_coverall.png", // Add the image path for TAHA T/C COVERALL
+    image: "/tahacoverall2.png", // Add the image path for TAHA T/C COVERALL
     description: [
       "65% Polyester, 35% Cotton",
       "135gsm Poplin material"
@@ -563,7 +547,7 @@ const products = [
     id: 48,
     name: "POWER COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/power_coverall.png", // Add the image path for POWER COVERALL
+    image: "/powercoverall.png", // Add the image path for POWER COVERALL
     description: [
       "65% Polyester, 35% Cotton",
       "250gsm Twill material"
@@ -573,7 +557,7 @@ const products = [
     id: 49,
     name: "NEO COVERALL",
     category: "Protective Gear",
-    image: "/src/assets/neo_coverall.png", // Add the image path for NEO COVERALL
+    image: "/neocoverall.png", // Add the image path for NEO COVERALL
     description: [
       "65% Polyester, 35% Cotton",
       "267gsm material"
@@ -583,7 +567,7 @@ const products = [
     id: 50,
     name: "RIPSTOP BIBPANTS",
     category: "Protective Gear",
-    image: "/src/assets/ripstop_bibpants.png", // Add the image path for RIPSTOP BIBPANTS
+    image: "/ripstopbibpants.png", // Add the image path for RIPSTOP BIBPANTS
     description: [
       "65% Polyester, 35% Cotton",
       "240gsm Ripstop material"
@@ -593,7 +577,7 @@ const products = [
     id: 51,
     name: "VAULTEX Safety Helmet",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/vaultex_safety_helmet.png", // Add the image path for VAULTEX Safety Helmet
+    image: "/vaultex.png", // Add the image path for VAULTEX Safety Helmet
     description: [
       "Durable safety helmet for head protection",
       "Adjustable headband for secure fit",
@@ -604,7 +588,7 @@ const products = [
     id: 52,
     name: "PROTECTA Safety Helmet",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/protecta_safety_helmet.png", // Add the image path for PROTECTA Safety Helmet
+    image: "/protecta.png", // Add the image path for PROTECTA Safety Helmet
     description: [
       "High-quality safety helmet for head protection",
       "Adjustable chin strap for better fit",
@@ -616,7 +600,7 @@ const products = [
     id: 53,
     name: "JSP Safety Helmet",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/jsp_safety_helmet.png", // Add the image path for JSP Safety Helmet
+    image: "/jsp.png", // Add the image path for JSP Safety Helmet
     description: [
       "Durable and lightweight safety helmet",
       "Adjustable harness for comfort and secure fit",
@@ -629,7 +613,7 @@ const products = [
     id: 54,
     name: "Bump Cap",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/bump_cap.png", // Add the image path for the Bump Cap
+    image: "/bumpcap.png", // Add the image path for the Bump Cap
     description: [
       "Polyurethane-coated",
       "Polyamide lined",
@@ -641,7 +625,7 @@ const products = [
     id: 55,
     name: "VE Air Colton Cap",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/ve_air_colton_cap.png", // Add the image path for the VE Air Colton Cap
+    image: "/vecap.png", // Add the image path for the VE Air Colton Cap
     description: [
       "Polyurethane-coated",
       "Polyamide construction",
@@ -654,7 +638,7 @@ const products = [
     id: 56,
     name: "WK FFP1",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ffp1.png", // Add the image path for the WK FFP1
+    image: "/wkffp1.png", // Add the image path for the WK FFP1
     description: [
       "FFP1 Respirator",
       "Protects against low-risk dusts and aerosols",
@@ -667,7 +651,7 @@ const products = [
     id: 57,
     name: "WK FFP1 V",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ffp1_v.png", // Add the image path for the WK FFP1 V
+    image: "/wkffp1v.png", // Add the image path for the WK FFP1 V
     description: [
       "FFP1 Respirator with Valve",
       "Protects against low-risk dusts and aerosols",
@@ -680,7 +664,7 @@ const products = [
     id: 58,
     name: "WK FFP1 CARBON",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ffp1_carbon.png", // Add the image path for the WK FFP1 CARBON
+    image: "/wkffp1carbon.png", // Add the image path for the WK FFP1 CARBON
     description: [
       "FFP1 Respirator with Activated Carbon",
       "Protects against low-risk dusts, aerosols, and fumes",
@@ -693,7 +677,7 @@ const products = [
     id: 59,
     name: "WK FFP1 FLAT V",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ffp1_flat_v.png", // Add the image path for the WK FFP1 FLAT V
+    image: "/wkffp1flat.png", // Add the image path for the WK FFP1 FLAT V
     description: [
       "FFP1 Respirator with Flat V Design",
       "Protects against low-risk dusts, aerosols, and fumes",
@@ -706,7 +690,7 @@ const products = [
     id: 60,
     name: "DELTAPLUS FFP1 VALVE",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/deltaplus_ffp1_valve.png", // Add the image path for the DELTAPLUS FFP1 VALVE
+    image: "/deltaplus.png", // Add the image path for the DELTAPLUS FFP1 VALVE
     description: [
       "FFP1 Respirator with Valve for Enhanced Comfort",
       "Protects against low-risk dusts, aerosols, and fumes",
@@ -719,7 +703,7 @@ const products = [
     id: 61,
     name: "WK Cm1001 S Chemical Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_cm1001_s.png", // Add the image path for the WK Cm1001 S Chemical Mask
+    image: "/wkcm1001.png", // Add the image path for the WK Cm1001 S Chemical Mask
     description: [
       "Chemical mask designed for protection against hazardous chemicals",
       "Equipped with high-performance filters for optimal safety",
@@ -732,7 +716,7 @@ const products = [
     id: 62,
     name: "WK CM 1002 D Chemical Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_cm1002_d.png", // Add the image path for the WK CM 1002 D Chemical Mask
+    image: "/wkam1002.png", // Add the image path for the WK CM 1002 D Chemical Mask
     description: [
       "Chemical mask designed for protection against hazardous chemicals",
       "Features dual filters for enhanced protection",
@@ -745,7 +729,7 @@ const products = [
     id: 63,
     name: "M6300 JUPITER Thermo-plastic Elastomer Half Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/m6300_jupiter.png", // Add the image path for the M6300 JUPITER Thermo-plastic Elastomer Half Mask
+    image: "/m6300.png", // Add the image path for the M6300 JUPITER Thermo-plastic Elastomer Half Mask
     description: [
       "Thermo-plastic elastomer half mask for effective respiratory protection",
       "Ergonomic design for comfort and secure fit",
@@ -759,7 +743,7 @@ const products = [
     id: 64,
     name: "NORTH 550030 Thermo-plastic Elastomer Half Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/north_550030.png", // Add the image path for the NORTH 550030 Thermo-plastic Elastomer Half Mask
+    image: "/550030.png", // Add the image path for the NORTH 550030 Thermo-plastic Elastomer Half Mask
     description: [
       "Thermo-plastic elastomer half mask for durable and comfortable fit",
       "Flexible design for all-day wear without discomfort",
@@ -773,7 +757,7 @@ const products = [
     id: 65,
     name: "VENUS MASK Thermo-plastic Half Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/venus_mask.png", // Add the image path for the Venus Mask Thermo-plastic Half Mask
+    image: "/venusmask.png", // Add the image path for the Venus Mask Thermo-plastic Half Mask
     description: [
       "Thermo-plastic half mask for comfort and durability",
       "Provides reliable protection against dust and airborne particles",
@@ -786,7 +770,7 @@ const products = [
     id: 66,
     name: "WK WS 2004 Taiwan Type Welding Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ws_2004.png", // Add the image path for the WK WS 2004 Welding Mask
+    image: "/wkws2004.png", // Add the image path for the WK WS 2004 Welding Mask
     description: [
       "High-quality PP material for durability",
       "Taiwan type welding mask designed for professional use",
@@ -799,7 +783,7 @@ const products = [
     id: 68,
     name: "WK WS 3001 American Type Welding Mask",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_ws_3001.png", // Update with actual image path
+    image: "/wkws3001.png", // Update with actual image path
     description: [
       "High-quality PP material for durability",
       "American type welding mask designed for professional use",
@@ -812,7 +796,7 @@ const products = [
     id: 69,
     name: "WK FS 5001 PC Face Shield",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_fs_5001.png", // Update with actual image path
+    image: "/wkfs5001.png", // Update with actual image path
     description: [
       "PC (Polycarbonate) face shield for high impact resistance",
       "Provides full face protection from flying debris and sparks",
@@ -825,7 +809,7 @@ const products = [
     id: 70,
     name: "WK FS 5003 PMMA Face Shield",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_fs_5003.png", // Update with actual image path
+    image: "/wkfs5003.png", // Update with actual image path
     description: [
       "PMMA (Acrylic) face shield with excellent optical clarity",
       "Provides full face protection from flying debris and sparks",
@@ -838,7 +822,7 @@ const products = [
     id: 71,
     name: "WK EM 5001 ECO Ear Defender",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_em_5001.png", // Update with actual image path
+    image: "/wkem5001.png", // Update with actual image path
     description: [
       "28 dB noise reduction rating (NRR)",
       "ABS construction with synthetic foam cups for comfort",
@@ -851,7 +835,7 @@ const products = [
     id: 72,
     name: "WK EM 5003 ECO Ear Defender",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_em_5003.png", // Update with actual image path
+    image: "/wkem5003.png", // Update with actual image path
     description: [
       "25 dB noise reduction rating (NRR)",
       "Polystyrene (PS) construction with synthetic foam cups",
@@ -864,7 +848,7 @@ const products = [
     id: 73,
     name: "SPA 3 28dB Ear Defender",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/spa_3_28db.png", // Update with actual image path
+    image: "/spa3.png", // Update with actual image path
     description: [
       "28 dB noise reduction rating (NRR)",
       "Polystyrene (PS) construction with synthetic foam cups",
@@ -877,7 +861,7 @@ const products = [
     id: 74,
     name: "SEPANG 29 dB Ear Defender",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/sepang_29db.png", // Update with actual image path
+    image: "/sepang29.png", // Update with actual image path
     description: [
       "29 dB noise reduction rating (NRR)",
       "ABS construction with synthetic foam cups",
@@ -890,7 +874,7 @@ const products = [
     id: 75,
     name: "CONICCO 200 Polyurethane Earplugs",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/conicco_earplugs.png", // Update with actual image path
+    image: "/conicco200.png", // Update with actual image path
     description: [
       "Polyurethane earplugs with plastic cord",
       "12mm size for optimal fit",
@@ -903,7 +887,7 @@ const products = [
     id: 76,
     name: "WL09 100CMS",
     category: "Other Safety Gear",
-    image: "/src/assets/wl09_100cms.png", // Add the image path for WL09 100CMS
+    image: "/wl09.png", // Add the image path for WL09 100CMS
     description: [
       "HDPE cone body",
       "PVC base",
@@ -916,7 +900,7 @@ const products = [
     id: 77,
     name: "WL 10 75CMS",
     category: "Other Safety Gear",
-    image: "/src/assets/wl10_75cms.png", // Add the image path for WL 10 75CMS
+    image: "/wl10.png", // Add the image path for WL 10 75CMS
     description: [
       "HDPE cone body",
       "PVC base",
@@ -929,7 +913,7 @@ const products = [
     id: 78,
     name: "WL 11 50CMS",
     category: "Other Safety Gear",
-    image: "/src/assets/wl11_50cms.png", // Add the image path for WL 11 50CMS
+    image: "/wl11.png", // Add the image path for WL 11 50CMS
     description: [
       "HDPE cone body",
       "PVC base",
@@ -942,7 +926,7 @@ const products = [
     id: 79,
     name: "WL 12 70CMS",
     category: "Other Safety Gear",
-    image: "/src/assets/wl12_70cms.png", // Add the image path for WL 12 70CMS
+    image: "/wl12.png", // Add the image path for WL 12 70CMS
     description: [
       "HDPE red cone body",
       "PVC base",
@@ -955,7 +939,7 @@ const products = [
     id: 80,
     name: "WL 13 90CMS",
     category: "Other Safety Gear",
-    image: "/src/assets/wl13_90cms.png", // Add the image path for WL 13 90CMS
+    image: "/wl13.png", // Add the image path for WL 13 90CMS
     description: [
       "HDPE red cone body",
       "PVC base",
@@ -968,7 +952,7 @@ const products = [
     id: 81,
     name: "WL 14 75 CMS PU",
     category: "Other Safety Gear",
-    image: "/src/assets/wl14_75cms_pu.png", // Add the image path for WL 14 75 CMS PU
+    image: "/wl14.png", // Add the image path for WL 14 75 CMS PU
     description: [
       "PU flexible post",
       "Height: 75cm",
@@ -980,7 +964,7 @@ const products = [
     id: 82,
     name: "WL 26, WL 27 WARNING CHAIN",
     category: "Other Safety Gear",
-    image: "/src/assets/wl26_wl27_warning_chain.png", // Add the image path for the warning chain
+    image: "/wl26.png", // Add the image path for the warning chain
     description: [
       "Plastic warning chain",
       "Made from PE (Polyethylene) material",
@@ -991,7 +975,7 @@ const products = [
     id: 83,
     name: "Warning Tapes",
     category: "Other Safety Gear",
-    image: "/src/assets/warning_tapes.png", // Add the image path for the warning tapes
+    image: "/warningtapes.png", // Add the image path for the warning tapes
     description: [
       "Durable, high-visibility safety tape",
       "Used for demarcating hazardous areas",
@@ -1003,7 +987,7 @@ const products = [
     id: 84,
     name: "FS 018 Office Kit",
     category: "Other Safety Gear",
-    image: "/src/assets/fs_018_office_kit.png", // Add the image path for the office kit
+    image: "/fs018.png", // Add the image path for the office kit
     description: [
       "Comprehensive office safety kit",
       "Includes essential safety tools and accessories",
@@ -1015,7 +999,7 @@ const products = [
     id: 85,
     name: "FS 033 Medical Kit",
     category: "Other Safety Gear",
-    image: "/src/assets/fs_033_medical_kit.png", // Add the image path for the medical kit
+    image: "/fs033.png", // Add the image path for the medical kit
     description: [
       "Comprehensive medical kit for workplace emergencies",
       "Includes a variety of first aid supplies",
@@ -1027,7 +1011,7 @@ const products = [
     id: 86,
     name: "FS 037 Multi Kit",
     category: "Other Safety Gear",
-    image: "/src/assets/fs_037_multi_kit.png", // Add the image path for the multi kit
+    image: "/fs037.png", // Add the image path for the multi kit
     description: [
       "Versatile multi-purpose safety kit",
       "Includes essential safety gear for various situations",
@@ -1039,7 +1023,7 @@ const products = [
     id: 87,
     name: "FS 013 Home Care Kit",
     category: "Other Safety Gear",
-    image: "/src/assets/fs_013_home_care_kit.png", // Add the image path for the home care kit
+    image: "/fs013.png", // Add the image path for the home care kit
     description: [
       "Complete home care safety kit",
       "Includes first aid essentials and personal protective equipment",
@@ -1051,7 +1035,7 @@ const products = [
     id: 88,
     name: "Fibre Glass A-type Double Sided Ladder",
     category: "Other Safety Gear",
-    image: "/src/assets/fibre_glass_a_type_ladder.png", // Add the image path for the ladder
+    image: "/fibredouble.png", // Add the image path for the ladder
     description: [
       "Durable fibre glass construction",
       "Double-sided design for easy access",
@@ -1064,7 +1048,7 @@ const products = [
     id: 89,
     name: "Aluminum Platform",
     category: "Other Safety Gear",
-    image: "/src/assets/aluminum_platform.png", // Add the image path
+    image: "/al.png", // Add the image path
     description: [
       "Durable aluminum construction",
       "Lightweight and easy to carry",
@@ -1076,7 +1060,7 @@ const products = [
     id: 90,
     name: "Aluminum Platform",
     category: "Other Safety Gear",
-    image: "/src/assets/aluminum_platform.png", // Add the image path
+    image: "/al2.png", // Add the image path
     description: [
       "Durable aluminum construction",
       "Lightweight and portable",
@@ -1088,7 +1072,7 @@ const products = [
     id: 91,
     name: "Aluminum Platform Double-sided",
     category: "Other Safety Gear",
-    image: "/src/assets/aluminum_platform_double_sided.png", // Add the image path
+    image: "/aldouble.png", // Add the image path
     description: [
       "Durable double-sided aluminum platform",
       "Lightweight and easy to move",
@@ -1100,7 +1084,7 @@ const products = [
     id: 92,
     name: "Fiberglass A-type Ladder",
     category: "Other Safety Gear",
-    image: "/src/assets/fiberglass_a_type_ladder.png", // Add the image path
+    image: "/fibre.png", // Add the image path
     description: [
       "Fiberglass A-type ladder for increased stability",
       "Non-conductive material for electrical safety",
@@ -1112,7 +1096,7 @@ const products = [
     id: 93,
     name: "WK SC 30 Disposable Nonwoven Fabric",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_sc_30_nonwoven_fabric.png", // Add the image path
+    image: "/wksc30.png", // Add the image path
     description: [
       "Made from high-quality nonwoven fabric",
       "Disposable for single-use applications",
@@ -1124,7 +1108,7 @@ const products = [
     id: 94,
     name: "WK SC PE Disposable Nonwoven Fabric",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_sc_pe_nonwoven_fabric.png", // Add the image path
+    image: "/wkscpe.png", // Add the image path
     description: [
       "Made from durable PE material",
       "Disposable for single-use applications",
@@ -1136,7 +1120,7 @@ const products = [
     id: 95,
     name: "SURCHPE Polyethylene 30 u",
     category: "Other Safety Gear",
-    image: "/src/assets/surchpe_polyethylene_30u.png", // Add the image path
+    image: "/surchpe.png", // Add the image path
     description: [
       "Made from high-quality Polyethylene (PE) material",
       "30 microns thickness for effective protection",
@@ -1148,7 +1132,7 @@ const products = [
     id: 96,
     name: "PO 110 Non-woven Polypropylene",
     category: "Other Safety Gear",
-    image: "/src/assets/po_110_non_woven_polypropylene.png", // Add the image path
+    image: "/po110.png", // Add the image path
     description: [
       "Made from high-quality Non-woven Polypropylene material",
       "Durable and lightweight for a variety of applications",
@@ -1160,7 +1144,7 @@ const products = [
     id: 97,
     name: "WK MC 10 Polypropylene",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_mc_10_polypropylene.png", // Add the image path
+    image: "/wkmc10.png", // Add the image path
     description: [
       "Made from durable Polypropylene material",
       "Lightweight and flexible for comfort",
@@ -1172,7 +1156,7 @@ const products = [
     id: 98,
     name: "PO 110 Non-woven Polypropylene",
     category: "Other Safety Gear",
-    image: "/src/assets/po_110_nonwoven_polypropylene.png", // Add the image path
+    image: "/po110.png", // Add the image path
     description: [
       "Constructed with durable Non-woven Polypropylene material",
       "Lightweight and breathable for comfort",
@@ -1184,7 +1168,7 @@ const products = [
     id: 99,
     name: "DT 117",
     category: "Other Safety Gear",
-    image: "/src/assets/dt_117.png", // Add the image path
+    image: "/dt117.png", // Add the image path
     description: [
       "Made of 50% Polypropylene and 50% Polyethylene",
       "Durable and resistant to wear",
@@ -1196,7 +1180,7 @@ const products = [
     id: 100,
     name: "WK DC 1040",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_dc_1040.png", // Add the image path
+    image: "/wkdc1040.png", // Add the image path
     description: [
       "Made of Polypropylene",
       "Non-woven fabric with 40 gsm thickness",
@@ -1208,7 +1192,7 @@ const products = [
     id: 101,
     name: "WK DC 2055",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_dc_2055.png", // Add the image path
+    image: "/wkdc2055.png", // Add the image path
     description: [
       "Made of SMS (Spunbond Meltblown Spunbond) fabric",
       "55 gsm thickness",
@@ -1220,7 +1204,7 @@ const products = [
     id: 102,
     name: "WK DC 3055",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_dc_3055.png", // Add the image path
+    image: "/wkdc3055.png", // Add the image path
     description: [
       "Made of Microporous Spunbond Laminate material",
       "55 gsm thickness",
@@ -1232,7 +1216,7 @@ const products = [
     id: 103,
     name: "WK DC 63gsm",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_dc_63gsm.png", // Add the image path
+    image: "/wkdc63.png", // Add the image path
     description: [
       "Made of Microporous Spray Tight Spunbond Polyethylene material",
       "63 gsm thickness",
@@ -1244,7 +1228,7 @@ const products = [
     id: 104,
     name: "WK 05 Belt PE",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_05_belt_pe.png", // Add the image path
+    image: "/wk05belt.png", // Add the image path
     description: [
       "Made with durable polyethylene material",
       "Includes belt and rope for safety",
@@ -1256,7 +1240,7 @@ const products = [
     id: 105,
     name: "WK 08 Harness Fall Arrester",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_08_harness.png", // Add the image path
+    image: "/wk08harness.png", // Add the image path
     description: [
       "Fall arrester designed for safety in high-risk work environments",
       "Made with durable polyethylene material",
@@ -1268,7 +1252,7 @@ const products = [
     id: 106,
     name: "WK 25 Harness Fall Arrester",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_25_harness.png", // Add the image path
+    image: "/wk25harness.png", // Add the image path
     description: [
       "Fall arrester designed for use in high-risk working conditions",
       "Constructed with strong polyethylene material",
@@ -1280,7 +1264,7 @@ const products = [
     id: 107,
     name: "WK 15 Lanyard with Energy Absorber",
     category: "Other Safety Gear",
-    image: "/src/assets/wk_15_lanyard.png", // Add the image path
+    image: "/wk15lanyard.png", // Add the image path
     description: [
       "Lanyard designed for fall protection",
       "Equipped with energy absorber for safe impact distribution",
@@ -1292,7 +1276,7 @@ const products = [
     id: 108,
     name: "WK SG 3001",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_3001.png", // Add the image path
+    image: "/wksg3001.png", // Add the image path
     description: [
       "High-quality safety goggles for eye protection",
       "Designed for optimal comfort and secure fit",
@@ -1304,7 +1288,7 @@ const products = [
     id: 109,
     name: "WK SG 3002",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_3002.png", // Add the image path
+    image: "/wksg3002.png", // Add the image path
     description: [
       "Durable and high-quality safety goggles",
       "Offers protection against dust, chemicals, and flying particles",
@@ -1316,7 +1300,7 @@ const products = [
     id: 110,
     name: "WK SG 3003",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_3003.png", // Add the image path
+    image: "/wksg3003.png", // Add the image path
     description: [
       "Professional-grade safety goggles",
       "Provides protection against chemicals, dust, and debris",
@@ -1328,7 +1312,7 @@ const products = [
     id: 111,
     name: "WK SG 3005",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_3005.png", // Add the image path
+    image: "/wksg3005.png", // Add the image path
     description: [
       "Heavy-duty safety goggles",
       "Protects against impact, chemicals, and UV light",
@@ -1340,7 +1324,7 @@ const products = [
     id: 112,
     name: "WK SG 71003",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_71003.png", // Add the image path
+    image: "/wksg71003.png", // Add the image path
     description: [
       "High-quality safety goggles",
       "Impact-resistant lens for enhanced protection",
@@ -1353,7 +1337,7 @@ const products = [
     id: 113,
     name: "WK SG 3001",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_sg_3001.png", // Add the image path
+    image: "/wksg30012.png", // Add the image path
     description: [
       "Durable safety goggles",
       "Anti-fog and scratch-resistant lenses",
@@ -1366,7 +1350,7 @@ const products = [
     id: 114,
     name: "WK WG 1002",
     category: "Head and Eye and Ear Protection",
-    image: "/src/assets/wk_wg_1002.png", // Add the image path
+    image: "/wkwg1002wk.png", // Add the image path
     description: [
       "High-quality welding gloves",
       "Made with durable leather for superior protection",
@@ -1374,7 +1358,69 @@ const products = [
       "Heat-resistant material",
       "Protects hands from sparks, molten metal, and heat"
     ]
-  }
+  },
+  ,
+  {
+    id: 145,
+    name: "CO2 Fire Extinguisher",
+    category: "Other Safety Gear", // Corrected category
+    image: "/co2fire.png", // Add the image path
+    description: [
+      "Carbon dioxide extinguishers, best for electrical fires and flammable liquids (Class B)",
+      "Effective for use in offices, server rooms, and workshops",
+      "Lightweight and easy to operate",
+      "Environmentally friendly and leaves no residue"
+    ]
+  },
+  {
+    id: 146, // Next ID
+    name: "9L Water Fire Extinguisher",
+    category: "Other Safety Gear", // Same category
+    image: "/9l.png", // Add the image path
+    description: [
+      "Water extinguishers, used for Class A fires (solid materials like wood and paper)",
+      "Ideal for homes, schools, and offices",
+      "Environmentally friendly with no chemicals",
+      "Easy to operate and maintain"
+    ]
+  },
+  {
+    id: 147, // Next ID
+    name: "Wet Chemical Fire Extinguisher",
+    category: "Other Safety Gear",
+    image: "/wet.png", // Add the image path
+    description: [
+      "Designed for kitchen fires, especially effective on Class F fires (cooking oils)",
+      "Highly effective at cooling and extinguishing fires caused by hot oil or grease",
+      "Suitable for use in restaurants, catering facilities, and domestic kitchens",
+      "Compact and easy to use"
+    ]
+  },
+  {
+    id: 148, // Next ID
+    name: "Foam Fire Extinguishers 6L & 9L",
+    category: "Other Safety Gear",
+    image: "/foam.png", // Add the image path
+    description: [
+      "Foam extinguishers, ideal for flammable liquids (Class B) and solids (Class A)",
+      "Suitable for use in homes, offices, and workshops",
+      "Effective at forming a blanket over liquid fires to suppress vapors",
+      "Lightweight and easy to handle"
+    ]
+},
+{
+  id: 149, // Next ID
+  name: "9, 6, 4 KG DP Fire Extinguisher",
+  category: "Other Safety Gear",
+  image: "/9.6.png", // Add the correct image path
+  description: [
+    "Dry Chemical Powder extinguishers, effective for Class A, B, and C fires",
+    "Versatile and suitable for homes, offices, and industrial settings",
+    "Compact and easy to operate",
+    "Reliable for tackling a range of fire types"
+  ]
+}
+
   
   
   

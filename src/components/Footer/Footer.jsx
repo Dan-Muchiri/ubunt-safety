@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className={styles.column}>
           <h3>Contact Us</h3>
-          <p>Email: ubuntusafetysolution@gmail.com </p>
+          <p>Email: info@ubuntusafetysolution.co.ke </p>
           <p>Phone: +254 723 807 031 | +254 714 275 1190</p>
           <a
             href="https://wa.me/254723807031" /* Replace with your WhatsApp number */

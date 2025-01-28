@@ -47,7 +47,7 @@ const ContactUsPage = () => {
 
           <div className={styles.right}>
             <form
-              action=""
+              action="https://formspree.io/f/xkgoroyo"
               method="post"
               className={styles.formContainer}
               onSubmit={handleSubmit}
