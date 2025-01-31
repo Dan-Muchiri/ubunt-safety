@@ -1430,7 +1430,120 @@ const products = [
     "Meets safety regulations and compliance standards",
     "Easy installation on walls, doors, or ceilings"
   ]
+},
+{
+  id: 151, 
+  name: "Safety Instruction Sign",
+  category: "Safety Signages",
+  image: "/public/safetyinstruction.png", // Add the correct image path
+  description: [
+    "Clear and concise safety instructions for emergency situations",
+    "Glow-in-the-dark feature for visibility in low-light environments",
+    "Durable, weather-resistant design for long-term use",
+    "Complies with safety regulations and industry standards",
+    "Easy to install and maintain in various environments"
+  ]
+},
+{
+  id: 152, 
+  name: "Machinery Sign",
+  category: "Safety Signages",
+  image: "/machinerysign.png", // Add the correct image path
+  description: [
+    "Clearly marks machinery for safe operation and maintenance",
+    "Made with high-visibility colors for easy identification",
+    "Durable material to withstand harsh industrial environments",
+    "Complies with safety standards to prevent workplace accidents",
+    "Easy to install on machinery and equipment"
+  ]
+},
+{
+  id: 153, 
+  name: "No Entry Sign",
+  category: "Safety Signages",
+  image: "/noentry.png", // Add the correct image path
+  description: [
+    "Indicates restricted access to ensure safety and compliance",
+    "Highly visible with bold colors and clear markings",
+    "Durable and weather-resistant for indoor and outdoor use",
+    "Helps prevent unauthorized entry into hazardous areas",
+    "Meets regulatory requirements for safety signage"
+  ]
+},
+{
+  id: 154, 
+  name: "Multi Message Sign",
+  category: "Safety Signages",
+  image: "/multimessage.png", // Add the correct image path
+  description: [
+    "Displays multiple safety messages for diverse scenarios",
+    "Customizable for different emergency or caution instructions",
+    "High-visibility design with clear, easy-to-read text",
+    "Durable and weather-resistant for use in various environments",
+    "Helps ensure effective communication in high-risk areas"
+  ]
+},
+{
+  id: 155, 
+  name: "Safety Poster",
+  category: "Safety Signages",
+  image: "/safetyposter.png", // Add the correct image path
+  description: [
+    "Provides important safety information and reminders",
+    "Visually engaging design to encourage safety awareness",
+    "Printed on durable, weather-resistant material for longevity",
+    "Ideal for high-traffic areas like break rooms or workspaces",
+    "Complies with workplace safety regulations"
+  ]
+},
+{
+  id: 156, 
+  name: "Floor Markings",
+  category: "Safety Signages",
+  image: "/floormarkings.png", // Add the correct image path
+  description: [
+    "Clearly indicates designated walkways, hazards, or restricted areas",
+    "Highly visible and durable for high-traffic environments",
+    "Made with non-slip material to ensure safety",
+    "Complies with safety standards for workplace and industrial settings",
+    "Easy to install and maintain on floors in various environments"
+  ]
+},
+{
+  id: 157, 
+  name: "Road Signs",
+  category: "Safety Signages",
+  image: "/roadsign.png", // Add the correct image path
+  description: [
+    "Clearly indicates traffic rules, warnings, and directions",
+    "Durable and weather-resistant for outdoor use",
+    "High visibility to ensure road safety and compliance",
+    "Complies with local and international road safety standards",
+    "Easy to install and maintain for various road environments"
+  ]
+},
+{
+  id: 158, 
+  name: "Labels",
+  category: "Safety Signages",
+  image: "/public/labels.png", // Add the correct image path
+  description: [
+    "Provides clear identification for equipment, hazards, or areas",
+    "Made from durable, weather-resistant materials for longevity",
+    "Adheres to various surfaces for easy installation",
+    "Highly visible with bold text and symbols for quick recognition",
+    "Complies with safety standards for workplace and industrial settings"
+  ]
 }
+
+
+
+
+
+
+
+
+
   
 ];
 
