@@ -5,7 +5,13 @@ import styles from "./ProductDetailStyles.module.css";
 const ProductDetailsPage = ({ products }) => {
   const { id } = useParams(); // Extract product ID from the URL
   const navigate = useNavigate(); // Hook to navigate programmatically
-  const product = products.find((item) => item.id.toString() === id); // Find product by ID
+
+  // Ensure products is available before searching
+  if (!products || products.length === 0) {
+    return <p className={styles.notFound}>Loading products...</p>;
+  }
+
+  const product = products.find((item) => Number(item.id) === Number(id));
 
   if (!product) {
     return <p className={styles.notFound}>Product not found.</p>;

@@ -1,5 +1,4 @@
 const products = [
-  ,
   {
     id: 2,
     name: "CHUI D-500",
@@ -1359,7 +1358,6 @@ const products = [
       "Protects hands from sparks, molten metal, and heat"
     ]
   },
-  ,
   {
     id: 145,
     name: "CO2 Fire Extinguisher",
@@ -1419,10 +1417,20 @@ const products = [
     "Compact and easy to operate",
     "Reliable for tackling a range of fire types"
   ]
+},
+{
+  id: 150, // Next ID
+  name: "Fire Exit Sign",
+  category: "Safety Signages",
+  image: "/fireexit.png", // Add the correct image path
+  description: [
+    "Highly visible fire exit sign for emergency escape routes",
+    "Glow-in-the-dark material for visibility in low-light conditions",
+    "Durable and weather-resistant for indoor and outdoor use",
+    "Meets safety regulations and compliance standards",
+    "Easy installation on walls, doors, or ceilings"
+  ]
 }
-
-  
-  
   
 ];
 
@@ -1434,6 +1442,7 @@ const categories = [
   "Gloves",
   "Protective Gear",
   "Head and Eye and Ear Protection",
+  "Safety Signages",
   "Other Safety Gear",
 ];
 

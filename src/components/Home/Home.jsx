@@ -75,6 +75,19 @@ function Home() {
             </ul>
           </Link>
 
+          {/* Safety Signages Category */}
+          <Link to="/products" className={styles.productCategory}>
+            <img src="/safetysigns.webp" alt="Safety Signages" className={styles.categoryImage} />
+            <h3>Safety Signages</h3>
+            <ul>
+              <li>Labels</li>
+              <li>Road and Traffic Signs</li>
+              <li>Construction Signages</li>
+              <li>Hazard Warning Signs</li>
+              <li>Safety Posters</li>
+            </ul>
+          </Link>
+
           {/* Other Safety Gear Category */}
           <Link to="/products" className={styles.productCategory}>
             <img src="/other.png" alt="Other Safety Gear" className={styles.categoryImage} />
