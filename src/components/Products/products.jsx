@@ -1435,7 +1435,7 @@ const products = [
   id: 151, 
   name: "Safety Instruction Sign",
   category: "Safety Signages",
-  image: "/public/safetyinstruction.png", // Add the correct image path
+  image: "/safetyinstruction.png", // Add the correct image path
   description: [
     "Clear and concise safety instructions for emergency situations",
     "Glow-in-the-dark feature for visibility in low-light environments",
@@ -1526,7 +1526,7 @@ const products = [
   id: 158, 
   name: "Labels",
   category: "Safety Signages",
-  image: "/public/labels.png", // Add the correct image path
+  image: "/labels.png", // Add the correct image path
   description: [
     "Provides clear identification for equipment, hazards, or areas",
     "Made from durable, weather-resistant materials for longevity",
@@ -1535,10 +1535,6 @@ const products = [
     "Complies with safety standards for workplace and industrial settings"
   ]
 }
-
-
-
-
 
 
 
