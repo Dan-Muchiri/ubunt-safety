@@ -156,6 +156,13 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section className={styles.weeklyArticles}>
+        <h2>Stay Updated with Our Weekly Articles</h2>
+        <p>Discover insights, tips, and the latest news in the world of safety and more. Don't miss out!</p>
+        <Link to="/article" className={styles.ctaBtn}>Read Our Articles</Link>
+      </section>
+
     </div>
   );
 }

@@ -1,0 +1,341 @@
+/* Container for Articles Page */
+.articlesContainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page Title */
+  .pageTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Category Filter Buttons */
+  .categoryButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .categoryButton {
+    padding: 12px 18px;
+    font-size: 17px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .categoryButton:hover {
+    background-color: #bbb;
+    transform: scale(1.05);
+  }
+  
+  .categoryButton.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Articles Grid */
+  .articlesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  /* Article Card */
+  .articleCard {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .articleCard:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .articleImage {
+    width: auto;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .articleImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .articleTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .articleSummary {
+    color: #555;
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Download Button */
+  .downloadButton {
+    display: block;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Article of the Week Section */
+.articleOfTheWeek {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .articleOfTheWeek h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Similar to the Weekly Article heading color */
+    margin-bottom: 20px;
+  }
+  
+  .articleOfTheWeek .articleCard {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .articleOfTheWeek .articleImage {
+    width: auto;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .articleOfTheWeek .articleImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .articleOfTheWeek .articleContent {
+    flex: 1;
+  }
+  
+  .articleOfTheWeek .articleTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .articleOfTheWeek .articleSummary {
+    color: #555;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .articleOfTheWeek .downloadButton {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .articleOfTheWeek .downloadButton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+
+  /* Media Query for Tablets  */
+@media (max-width: 1000px) {
+    .articlesContainer {
+      padding: 15px;
+    }
+  
+    .pageTitle {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    /* Remove category filter on smaller screens */
+    .categoryButtons {
+        display: none;
+      }
+  
+    .articlesGrid {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+  
+    .articleCard {
+      padding: 15px;
+    }
+  
+    .articleImage {
+      height: 150px;
+    }
+  
+    .articleTitle {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  
+    .articleSummary {
+      font-size: 14px;
+    }
+  
+    .downloadButton {
+      padding: 10px 18px;
+      font-size: 14px;
+    }
+  
+    /* Article of the Week Section */
+    .articleOfTheWeek {
+      flex-direction: column;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .articleOfTheWeek .articleCard {
+      flex-direction: column;
+      padding: 10px;
+      gap: 0px;
+    }
+  
+    .articleOfTheWeek .articleImage {
+      width: auto;
+      height: 180px;
+    }
+  
+    .articleOfTheWeek .articleTitle {
+      font-size: 20px;
+      margin: 0;
+      padding-top: 10px;
+    }
+  
+    .articleOfTheWeek .articleSummary {
+      font-size: 15px;
+    }
+  
+    .articleOfTheWeek .downloadButton {
+      padding: 10px 18px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media Query for Phones (max-width: 480px) */
+  @media (max-width: 480px) {
+    .articlesContainer {
+      padding: 10px;
+    }
+  
+    .pageTitle {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+     /* Remove category filter on smaller screens */
+     .categoryButtons {
+        display: none;
+      }
+  
+    .articlesGrid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .articleCard {
+      padding: 12px;
+    }
+  
+    .articleImage {
+      height: 130px;
+    }
+  
+    .articleTitle {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .articleSummary {
+      font-size: 12px;
+    }
+  
+    .downloadButton {
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+  
+    /* Article of the Week Section */
+    .articleOfTheWeek {
+      flex-direction: column;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+  
+    .articleOfTheWeek .articleCard {
+      flex-direction: column;
+      padding: 10px;
+      gap: 0px;
+    }
+  
+    .articleOfTheWeek .articleImage {
+      width: auto;
+      height: 160px;
+    }
+  
+    .articleOfTheWeek .articleTitle {
+      font-size: 18px;
+      margin: 0;
+    }
+  
+    .articleOfTheWeek .articleSummary {
+      font-size: 14px;
+    }
+  
+    .articleOfTheWeek .downloadButton {
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+  }
+  

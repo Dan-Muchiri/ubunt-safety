@@ -8,6 +8,7 @@ import Home from "/src/components/Home/Home.jsx";
 import Footer from "/src/components/Footer/Footer.jsx";
 import { products, categories } from "./components/Products/products";
 import ProductDetails from "./components/ProductDetail/ProductDetails";
+import ArticlePage from '/src/components/Articles/ArticlesPage';
 import './App.css';
 
 function ScrollToTop() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductsPage products={products} categories={categories} />} />
         <Route path="/product/:id" element={<ProductDetails products={products} />} />
+        <Route path="/article" element={<ArticlePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

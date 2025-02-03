@@ -217,7 +217,40 @@
 
 
 
-
+.weeklyArticles {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .weeklyArticles h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .weeklyArticles p {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .weeklyArticles .ctaBtn {
+    padding: 10px 20px;
+    background-color: #f56c56;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .weeklyArticles .ctaBtn:hover {
+    background-color: #f44336;
+  }
+  
   
  
   
