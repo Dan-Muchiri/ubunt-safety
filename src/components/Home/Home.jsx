@@ -107,33 +107,38 @@ function Home() {
         <h2>Our Services</h2>
         <p>We offer a wide range of services to ensure the safety and well-being of your team and business:</p>
         <div className={styles.serviceList}>
-          <div className={styles.serviceItem}>
-            <i className="fas fa-search fa-2x"></i> {/* Icon for Health and Safety Audits */}
+          <Link to="/services/1" className={styles.serviceItem}>
+            <i className="fas fa-search fa-2x"></i>
             <h3>Health and Safety Audits</h3>
             <p>Comprehensive assessments to identify and mitigate risks, ensuring a safe working environment.</p>
-          </div>
-          <div className={styles.serviceItem}>
-            <i className="fas fa-chalkboard-teacher fa-2x"></i> {/* Icon for Training Programs */}
+          </Link>
+          
+          <Link to="/services/2" className={styles.serviceItem}>
+            <i className="fas fa-chalkboard-teacher fa-2x"></i>
             <h3>Training Programs</h3>
             <p>Customized training sessions on various safety topics, designed to educate and empower your staff.</p>
-          </div>
-          <div className={styles.serviceItem}>
-            <i className="fas fa-exclamation-triangle fa-2x"></i> {/* Icon for Emergency Planning */}
+          </Link>
+          
+          <Link to="/services/3" className={styles.serviceItem}>
+            <i className="fas fa-exclamation-triangle fa-2x"></i>
             <h3>Emergency Planning</h3>
             <p>Development and implementation of emergency response plans, so your team is prepared for any situation.</p>
-          </div>
-          <div className={styles.serviceItem}>
-            <i className="fas fa-leaf fa-2x"></i> {/* Icon for Environmental Impact Assessments */}
+          </Link>
+          
+          <Link to="/services/4" className={styles.serviceItem}>
+            <i className="fas fa-leaf fa-2x"></i>
             <h3>Environmental Impact Assessments</h3>
             <p>Evaluations to ensure compliance with environmental regulations and mitigate environmental risks.</p>
-          </div>
-          <div className={styles.serviceItem}>
-            <i className="fas fa-fire fa-2x"></i> {/* Icon for Fire Safety */}
+          </Link>
+          
+          <Link to="/services/5" className={styles.serviceItem}>
+            <i className="fas fa-fire fa-2x"></i>
             <h3>Fire Safety</h3>
             <p>Fire risk assessments and protection plans, ensuring the safety of your team and business from fire hazards.</p>
-          </div>
+          </Link>
         </div>
       </section>
+
 
 
       

@@ -1,0 +1,94 @@
+/* ServicesStyles.module.css */
+
+/* Basic layout styling */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation styling */
+  .nav {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .navButton {
+    padding: 10px 20px;
+    background-color: #8c8c8c;  /* Soft gray background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navButton:hover {
+    background-color: #6f6f6f;  /* Slightly darker gray on hover */
+    transform: scale(1.05);
+  }
+  
+  /* Service content area styling */
+  .content {
+    margin: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: black;  /* Black text */
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 1.1rem;
+    color: black;  /* Black text */
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+    color: black;  /* Black text */
+    margin-top: 25px;
+  }
+  
+  .list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .listItem {
+    font-size: 1.1rem;
+    color: black;  /* Black text */
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navButton {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .paragraph, .sectionTitle {
+      font-size: 1rem;
+    }
+  
+    .listItem {
+      font-size: 1rem;
+    }
+  }
+  
