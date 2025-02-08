@@ -20,7 +20,7 @@ const Footer = () => {
         <div className={styles.column}>
           <h3>Contact Us</h3>
           <p>Email: info@ubuntusafetysolution.co.ke </p>
-          <p>Phone: +254 723 807 031 | +254 714 275 1190</p>
+          <p>Phone: +254 723 807 031 | +254 714 275 119</p>
           <a
             href="https://wa.me/254723807031" /* Replace with your WhatsApp number */
             target="_blank"
