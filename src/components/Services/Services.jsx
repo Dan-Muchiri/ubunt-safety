@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom"; // Import useParams to capture URL params
+import { useParams } from "react-router-dom"; 
 import { serviceData } from "./ServicesData"; 
 import styles from "./ServicesStyles.module.css";
 
 const ServiceDetail = () => {
-  const { serviceId } = useParams();  // Destructure the serviceId from URL params
-  const [selectedServiceId, setSelectedServiceId] = useState(parseInt(serviceId));  // Initialize with the URL param
+  const { serviceId } = useParams();
+  const [selectedServiceId, setSelectedServiceId] = useState(parseInt(serviceId));
 
-  // Ensure the service ID changes when the URL changes
   useEffect(() => {
-    setSelectedServiceId(parseInt(serviceId)); 
+    setSelectedServiceId(parseInt(serviceId));
   }, [serviceId]);
 
-  // Function to handle dynamic rendering based on content type
   const renderContent = (content) => {
     return content.map((item, index) => {
       switch (item.type) {
@@ -34,27 +32,27 @@ const ServiceDetail = () => {
     });
   };
 
-  // Get the selected service data based on the ID
   const currentService = serviceData[selectedServiceId];
 
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        {/* Dynamically create navigation for all services */}
-        {Object.values(serviceData).map((service) => (
-          <button 
-            key={service.id} 
-            onClick={() => setSelectedServiceId(service.id)}  // Manually change service on click
-            className={styles.navButton}
-          >
-            {service.name}
-          </button>
-        ))}
+        <select 
+          className={styles.dropdown} 
+          value={selectedServiceId} 
+          onChange={(e) => setSelectedServiceId(parseInt(e.target.value))}
+        >
+          {Object.values(serviceData).map((service) => (
+            <option key={service.id} value={service.id}>
+              {service.name}
+            </option>
+          ))}
+        </select>
       </nav>
 
       <div className={styles.content}>
         <h1 className={styles.title}>{currentService.name}</h1>
-        {renderContent(currentService.content)}  {/* Render content dynamically */}
+        {renderContent(currentService.content)}
       </div>
     </div>
   );
