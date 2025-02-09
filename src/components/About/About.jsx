@@ -68,30 +68,28 @@ const AboutUsPage = () => {
       <section className={styles.servicesSection}>
         <h2>Our Services</h2>
         <div className={styles.servicesGrid}>
-          <div className={styles.serviceCard}>
+          <Link to="/services/1" className={styles.serviceCard}>
             <h3>Health and Safety Audits</h3>
             <p>Comprehensive assessments to identify and mitigate risks.</p>
-          </div>
-          <div className={styles.serviceCard}>
+          </Link>
+          <Link to="/services/2" className={styles.serviceCard}>
             <h3>Training Programs</h3>
             <p>Customized training sessions on various safety topics.</p>
-          </div>
-          <div className={styles.serviceCard}>
+          </Link>
+          <Link to="/services/3" className={styles.serviceCard}>
             <h3>Emergency Planning</h3>
-            <p>
-              Development and implementation of emergency response plans.
-            </p>
-          </div>
-          <div className={styles.serviceCard}>
+            <p>Development and implementation of emergency response plans.</p>
+          </Link>
+          <Link to="/services/4" className={styles.serviceCard}>
             <h3>Environmental Impact Assessments</h3>
-            <p>
-              Evaluations to ensure compliance with environmental regulations.
-            </p>
-          </div>
-          <div className={styles.serviceCard}>
+              <p>
+                Evaluations to ensure compliance with environmental regulations.
+              </p>
+          </Link>
+          <Link to="/services/5" className={styles.serviceCard}>
             <h3>Fire Safety</h3>
             <p>Fire risk assessments and protection plans.</p>
-          </div>
+          </Link>       
         </div>
       </section>
 
