@@ -14,7 +14,7 @@ export const categories = [
         category: "Protective Gear",
         image: "/Personal-protective-equipment-PPE.jpg",
         summary: "A comprehensive guide on selecting the right PPE for workplace safety, covering hazard assessment, compliance, fit, durability, and compatibility.",
-        file: "/FACTORS TO CONSIDER IN SELECTING PERSONAL PROTECTIVE EQUIPMENT.docx",
+        file: "/FACTORS TO CONSIDER IN SELECTING PERSONAL PROTECTIVE EQUIPMENT.pdf",
         isFeatured: true, // Mark this article as the featured article of the week
       },
   ];
