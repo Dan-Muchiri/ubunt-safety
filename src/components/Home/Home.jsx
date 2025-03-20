@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './HomeStyles.module.css';
+import BlackFridayOffers from '../BlackFriday/BlackFriday';
 
 function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className={styles.hero}>
+      {/* <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1>Your Safety, Our Priority</h1>
           <p>Explore Our Comprehensive Range of Safety Solutions, Tailored for Every Need</p>
@@ -18,30 +19,10 @@ function Home() {
         <div className={styles.heroImage}>
           <img src="/Ubuntu safety logo.png" alt="Safety Solutions" />
         </div>
-      </section>
+      </section> */}
 
       {/* Black Friday Offers Section */}
-      <section className={styles.blackFriday}>
-        <h2>Exclusive Black Friday Deals</h2>
-        <div className={styles.offerScroll}>
-          {[
-            "/blackfriday1.jpeg",
-            "/blackfriday2.jpeg",
-            "/blackfriday3.jpeg",
-            "/blackfriday4.jpeg",
-            "/blackfriday5.jpeg",
-            "/blackfriday6.jpeg",
-            "/blackfriday7.jpeg",
-            "/blackfriday8.jpeg",
-            "/blackfriday9.jpeg",
-            "/blackfriday10.jpeg"
-          ].map((image, index) => (
-            <div key={index} className={styles.offerItem}>
-              <img src={image} alt={`Black Friday Offer ${index + 1}`} />
-            </div>
-          ))}
-        </div>
-      </section>
+      <BlackFridayOffers/>
 
 
 

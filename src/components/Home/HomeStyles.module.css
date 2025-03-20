@@ -46,8 +46,12 @@
 }
 
 .productOverview {
-    padding: 50px;
+    padding: 10px;
     background-color: #f7f7f7;
+}
+
+.productOverview h2{
+    font-size: 1.7rem;
 }
 
 .productCategories {
@@ -265,51 +269,6 @@
     background-color: #f44336;
   }
 
-  .blackFriday {
-    text-align: center;
-    padding: .5rem 0;
-  }
-
-  .blackFriday h2{
-    font-size: 30px;
-  }
-
-  .offerScroll {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 1rem;
-    padding: 1rem;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .offerScroll::-webkit-scrollbar {
-    height: 8px;
-  }
-  
-  .offerScroll::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
-  }
-  
-  .offerItem {
-    flex: 0 0 auto;
-    width: 290px; /* Adjust width as needed */
-    scroll-snap-align: start;
-  }
-  
-  .offerItem img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .offerItem img:hover {
-    transform: scale(1.05);
-  }
   
   
   
@@ -406,8 +365,6 @@
         gap: 15px; /* Adjust spacing between testimonials */
     }
 
-    .blackFriday h2{
-        font-size: 1.4rem;
-      }
+
 }
 
