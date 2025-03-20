@@ -1,12 +1,12 @@
 .blackFriday {
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     background: linear-gradient(to right, #111, #444); /* Dark gradient */
     color: #fff;
   }
   
   .blackFriday h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: bold;
