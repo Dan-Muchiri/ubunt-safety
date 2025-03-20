@@ -16,7 +16,7 @@
   
   .offerContainer {
     width: 100%;
-    max-width: 400px; /* Larger image for big screens */
+    max-width: 350px; /* Larger image for big screens */
     margin: auto;
     overflow: hidden;
     border-radius: 15px;
@@ -43,6 +43,7 @@
   
     .offerContainer {
       width: 100%;
+      max-width: 500px;
     }
   }
   
