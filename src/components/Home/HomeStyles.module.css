@@ -405,5 +405,9 @@
         align-items: center;
         gap: 15px; /* Adjust spacing between testimonials */
     }
+
+    .blackFriday h2{
+        font-size: 1.4rem;
+      }
 }
 
