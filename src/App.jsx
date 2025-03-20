@@ -8,7 +8,7 @@ import Home from "/src/components/Home/Home.jsx";
 import Footer from "/src/components/Footer/Footer.jsx";
 import { products, categories } from "./components/Products/products";
 import ProductDetails from "./components/ProductDetail/ProductDetails";
-import ArticlePage from '/src/components/Articles/ArticlesPage';
+// import ArticlePage from '/src/components/Articles/ArticlesPage';
 import Services from '/src/components/Services/Services'
 import './App.css';
 
@@ -32,7 +32,7 @@ function App() {
         <Route path="/products" element={<ProductsPage products={products} categories={categories} />} />
         <Route path="/services/:serviceId" element={<Services />} />
         <Route path="/product/:id" element={<ProductDetails products={products} />} />
-        <Route path="/article" element={<ArticlePage />} />
+        {/* <Route path="/article" element={<ArticlePage />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

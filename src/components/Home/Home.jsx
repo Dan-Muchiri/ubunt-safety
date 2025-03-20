@@ -20,6 +20,31 @@ function Home() {
         </div>
       </section>
 
+      {/* Black Friday Offers Section */}
+      <section className={styles.blackFriday}>
+        <h2>Exclusive Black Friday Deals</h2>
+        <div className={styles.offerScroll}>
+          {[
+            "/blackfriday1.jpeg",
+            "/blackfriday2.jpeg",
+            "/blackfriday3.jpeg",
+            "/blackfriday4.jpeg",
+            "/blackfriday5.jpeg",
+            "/blackfriday6.jpeg",
+            "/blackfriday7.jpeg",
+            "/blackfriday8.jpeg",
+            "/blackfriday9.jpeg",
+            "/blackfriday10.jpeg"
+          ].map((image, index) => (
+            <div key={index} className={styles.offerItem}>
+              <img src={image} alt={`Black Friday Offer ${index + 1}`} />
+            </div>
+          ))}
+        </div>
+      </section>
+
+
+
       {/* Product Overview Section */}
       <section className={styles.productOverview}>
         <h2>Explore Our Products</h2>
@@ -164,11 +189,11 @@ function Home() {
         </div>
       </section>
 
-      <section className={styles.weeklyArticles}>
+      {/* <section className={styles.weeklyArticles}>
         <h2>Stay Updated with Our Weekly Articles</h2>
         <p>Discover insights, tips, and the latest news in the world of safety and more. Don't miss out!</p>
         <Link to="/article" className={styles.ctaBtn}>Read Our Articles</Link>
-      </section>
+      </section> */}
 
     </div>
   );

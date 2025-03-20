@@ -23,7 +23,7 @@ function Header() {
                     <nav className={styles.nav}>
                       <Link to="/" onClick={toggleMenu}>Home</Link>
                       <Link to="/products" onClick={toggleMenu}>Products</Link>
-                      <Link to="/article" onClick={toggleMenu}>Articles</Link> {/* Added Articles Link */}
+                      {/* <Link to="/article" onClick={toggleMenu}>Articles</Link> */}
                       <Link to="/about" onClick={toggleMenu}>About us</Link>
                       <Link to="/contact" onClick={toggleMenu}>Contact</Link>
                     </nav>
